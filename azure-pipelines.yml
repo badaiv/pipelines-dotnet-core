@@ -28,5 +28,5 @@ steps:
   inputs:
     azureSubscription: 'Microsoft Partner Network(fa98803a-f66c-4845-a391-18f0ce8ed164)'
     WebAppName: 'gr-test-pipeline'
-    Package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    Package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
